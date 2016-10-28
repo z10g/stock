@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as BS
 import requests, time
 
-CODE_LIST = [270049, '000299', '001338']
+CODE_LIST = [270049, '000299', '001338', '001511']
 
 def get_fund_val(code):
     url = 'http://fund.eastmoney.com/%s.html' % code
